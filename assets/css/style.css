@@ -1,0 +1,94 @@
+.inner_layout > header.page_header {
+    margin-bottom: 150px;
+}
+
+.woocommerce-page.single-product div.product div.images img {
+    width: 100%;
+    height: auto;
+    border-style: none;
+    border-width: 0;
+}
+
+.woocommerce .products .product .woocommerce-LoopProduct-link .xtra-product-thumbnail img {
+    border: none;
+    transition: all 800ms ease-out;
+}
+
+.woocommerce .products .product .woocommerce-LoopProduct-link .xtra-product-thumbnail {
+    overflow: hidden;
+}
+
+.woocommerce .products .product .woocommerce-LoopProduct-link .xtra-product-thumbnail:hover img {
+    transform: scale(1.15);
+}
+
+.woocommerce ul.products li.product .woocommerce-LoopProduct-link .price {
+    font-size: 1.1rem;
+    position: relative;
+    top: unset;
+    right: unset;
+    color: #fc9b0c;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.woocommerce ul.products li.product a.woocommerce-LoopProduct-link::after {
+    content: "نمایش";
+    position: relative;
+    pointer-events: none;
+    font-size: 1.2rem;
+    background-color: #fc9b0c;
+    padding: 0.5rem 1.25rem;
+    border-radius: 5rem;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.woocommerce ul.products li.product a.button.add_to_cart_button,
+.woocommerce ul.products li.product a.button[class*="product_type_"] {
+    top: 0.5rem;
+    right: auto;
+    left: 0.5rem;
+    margin: 0;
+    border-radius: 1rem;
+    border: 0;
+    padding: 1rem;
+    box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 15%);
+    font-size: 0;
+}
+
+.rtl .woocommerce ul.products li.product a.button:before,
+.woocommerce ul.products li.product a.button:before {
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0 !important;
+}
+
+.woocommerce ul.products li.product a.button.add_to_cart_button:hover,
+.woocommerce ul.products li.product a.button[class*="product_type_"]:hover {
+    color: #fc9b0c;
+    background-color: white;
+    border: none;
+}
+
+.woocommerce-page.single-product .stock.out-of-stock {
+    display: none;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
