@@ -105,3 +105,36 @@
 #page_content .s12 .cz_is_blank {
 	top: 0 !important;
 }
+
+/* .home [class^="header_onthe_cover"],
+.home [class*=" header_onthe_cover"],
+.woocommerce-account [class^="header_onthe_cover"],
+.woocommerce-account [class*=" header_onthe_cover"],
+.woocommerce-checkout [class^="header_onthe_cover"],
+.woocommerce-checkout [class*=" header_onthe_cover"] { */
+[class*=" header_onthe_cover"] {
+	margin-top: 0.75rem !important;
+}
+
+.inner_shop_cart_header_2_right_1,
+.shop_cart_header_2_right_7,
+.elms_shop_cart {
+    display: none;
+}
+
+.woocommerce-checkout .woocommerce form .form-row {
+	margin-bottom: 0.75rem;
+}
+
+.woocommerce-checkout .woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox + p:is(:empty),
+.woocommerce-checkout .woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox {
+    display: none;
+}
+
+.page_title, .header_onthe_cover .page_title {
+	padding-bottom: 0 !important;
+}
+
+.woocommerce .page_content {
+	margin-top: 0;
+}
