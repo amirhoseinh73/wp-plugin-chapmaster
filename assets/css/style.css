@@ -203,3 +203,40 @@
 .single-product .inner_layout .page_content section.col.s9 .xtra-single-product .summary .price {
     margin: 1rem auto !important;
 }
+
+.related ul.products li.product .xtra-product-thumbnail img {
+    display: block !important;
+    max-width: 14rem !important;
+    margin: 1rem auto;
+}
+
+@media ( 768px <= width <= 1024px) {
+    .header_1_right  .cz_elm.search_header_1_right_4 {
+        margin-top: 0 !important;
+        margin-bottom: 3rem;
+    }
+}
+
+@media ( width <= 768px ) {
+    .header_4_right .cz_elm .cz_mi_15260,
+    .header_4_right .cz_elm {
+        margin-top: 0 !important;
+    }
+
+    .woocommerce #page_content {
+        top: -122px !important;
+    }
+
+    .woocommerce .xtra-single-product .theiaStickySidebar {
+        position: relative !important;
+        transform: none !important;
+    }
+
+    .single-product .inner_layout .page_content section.col.s9 .xtra-single-product .woocommerce-product-gallery {
+        width: 100%;
+    }
+    
+    .single-product .inner_layout .page_content section.col.s9 .xtra-single-product .summary {
+        width: 100%;
+    }
+}
