@@ -8,10 +8,14 @@
 .woocommerce .products .product .woocommerce-LoopProduct-link .xtra-product-thumbnail img {
     border: none;
     transition: all 800ms ease-out;
+    margin-bottom: 0;
 }
 
 .woocommerce .products .product .woocommerce-LoopProduct-link .xtra-product-thumbnail {
     overflow: hidden;
+    border-radius: 15px;
+    max-width: 12rem;
+    margin: 0 auto 1rem;
 }
 
 .woocommerce .products .product .woocommerce-LoopProduct-link .xtra-product-thumbnail:hover img {
@@ -234,8 +238,10 @@
 
     .single-product .inner_layout .page_content section.col.s9 .xtra-single-product .woocommerce-product-gallery {
         width: 100%;
+        width: 70%;
+        margin: 0 auto 1rem;
     }
-    
+
     .single-product .inner_layout .page_content section.col.s9 .xtra-single-product .summary {
         width: 100%;
     }
